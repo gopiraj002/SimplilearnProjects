@@ -1,0 +1,18 @@
+package regularExpnAssisted;
+
+import java.util.regex.*;
+
+public class Demo {
+
+public static void main(String[] args) {
+
+	String pattern = "[a-z]+";
+	String check = "Iam Arjun & also Gopi";
+	Pattern p = Pattern.compile(pattern);
+	Matcher c = p.matcher(check);
+	
+	while (c.find())
+      	System.out.println( check.substring( c.start(), c.end() ) );
+	}
+}
+
