@@ -72,7 +72,7 @@ public void printlist(Node node)
     	}
 public static void main(String[] args) 
     	{
-Demo dll = new Demo;
+Demo dll = new Demo
 dll.append(6); 
 dll.push(7);
 dll.push(1); 
